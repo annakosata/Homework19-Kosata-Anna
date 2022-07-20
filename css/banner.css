@@ -1,0 +1,39 @@
+.banner {
+    position: relative;
+    margin-top: 73px;
+}
+.banner_text{
+    position: absolute;
+    top: 33%;
+    left: 0;
+    max-width: 45%;
+}
+.banner span{
+    font: 700 1.125rem/1.5rem 'RobotoBold' ;
+    color: var(--almost-black);
+}
+.banner button {
+    font-size: 0.875rem;
+    background: none;
+    padding: 13px 36px;
+    border: none;
+}
+.banner button:first-of-type{
+    background-color: var(--pure-white);
+}
+.banner button:first-of-type:hover{
+    background-color: var(--blue);
+    color: var(--pure-white);
+}
+.banner button:last-of-type:hover{
+    background-color: var(--blue);
+    color: var(--pure-white);
+}
+.special-offer{
+    padding: 16px 45px 16px 88px;
+    position: absolute;
+    max-width: 40%;
+    background-color: #F1C0C7;
+    bottom: -3%;
+    column-gap: 16px;
+}
